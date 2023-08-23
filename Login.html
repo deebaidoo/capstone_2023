@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+    
+  </head>
+<body background="blue">
+<div class="container">
+    <form method="post" action="#">
+        <div id="div_login">
+            <h1 style=text-align:center>Login</h1>
+          
+            
+            <input type="firstname" placeholder="First name" required/>
+            <br>
+            
+            <input type="lastname" placeholder="Last name" required/>
+            <br>
+            <input type="password" placeholder="Enter Password" required/>
+            <div class="toggle password">
+            <div class="error-text">Confirm Password Not Match</div>
+            <div class="field">
+            <input type="confirm password" placeholder="Confirm Password" required>
+              <i class="fa fa-eye"></i>
+              <div class="show">Show</div>
+            </div>
+            <button>Check</button>
+          </div>
+
+            </div>
+            <div class="password-polices">
+             <div class="policy-length">
+              8 characters
+             </div>
+             <div class="policy-number">
+              contains number
+             </div>
+             <div class="policy-uppercase">
+              contains uppercase
+             </div>
+             <div class="policy-lowercase">
+              contains lowercase
+             </div>
+             <div class="policy-specialcharacter">
+              contains special character
+             </div>
+             
+             
+
+            </div>
+            <br>
+            <div>
+                <input type="submit" value="Submit" name="but_submit" id="but_submit" />
+            </div>
+        </div>
+    </form>
+</div>
+<script src="/check.js"></script>
+</body>
+</html>
+

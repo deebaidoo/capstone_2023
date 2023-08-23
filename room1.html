@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Houses for Rent</title>
+    <style>
+      /* CSS for the swiping container */
+      .swiper-container {
+        width: 100%;
+        height: 150px;
+        background-repeat: no-repeat;
+        background-position: relative;
+        box-sizing: border-box;
+      }
+      body{
+        margin: 0;
+        padding: 0;
+        background: url(new.jpg);
+        background-size: cover;
+        background-position: relative;
+        background-repeat: no-repeat;
+      }
+      /* CSS for the swiping slides */
+      .swiper-slide {
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+      }
+      .house-info {
+        background: rgba(255, 255, 255, 0.7);
+        padding: 20px;
+        border-radius: 10px;
+        text-align: center;
+      }
+      .reserve-btn {
+        margin-top: 20px;
+        background-color: #4CAF50;
+        color: white;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        border-radius: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Houses for Rent</h1>
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide" style="background-image:url">
+          <div class="house-info">
+            <h2>House 1</h2>
+            <ul>
+              <li>Location: 123 Main St.</li>
+              <li>Bedrooms: 3</li>
+              <li>Bathrooms: 2</li>
+              <li>Size: 1,500 sq ft</li>
+              <li>Rent: $1,500/month</li>
+              <li>Lease Term: 1 year</li>
+            </ul>
+            <a href="#" class="reserve-btn">Reserve Now</a>
+          </div>
+          <div class="swiper-slide" style="background-image:url(house4.jpg)">
+            <h2>House 3</h2>
+            <ul>
+              <li>Location: 789 Main St.</li>
+              <li>Bedrooms: 4</li>
+              <li>Bathrooms: 3</li>
+              <li>Size: 2,000 sq ft</li>
+              <li>Rent: $2,000/month</li>
+              <li>Lease Term: 1 year</li>
+            </ul>
+            <button class="reservation-button">Make a Reservation</button>
+          </div>
+        </div>
+        

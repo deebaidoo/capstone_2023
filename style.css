@@ -1,0 +1,72 @@
+:root{
+    --color-primary: blue;
+    --color-white:white;
+    --color-black: black;
+}
+body
+{
+    position: relative;
+    background-size: cover;
+    background-image: url("house4.jpg");
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+}
+
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.menu__bar{
+  background-color: var(--color-black);
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: left;
+  justify-content: space-between;
+  padding: 0 2%;
+}
+
+.logo img{
+    float: left conner;
+    width: 86%;
+    height: auto;
+   
+   
+    
+}
+
+
+
+.menu__bar ul{
+    list-style: none;
+    display: flex;
+}
+
+.menu__bar ul li{
+    padding: 10px 30px;
+    position: relative;
+}
+
+.menu__bar ul li a {
+    color: var(--color-white);
+    text-decoration: none;
+    font-size: 20px;
+
+    transition: all 0.3s;
+}
+
+.menu__bar ul li a:hover{
+    color: var(--color-primary);
+}
+
+
+
+
+
+
+
+
+

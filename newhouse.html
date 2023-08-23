@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Houses for Rent</title>
+    <!-- Import Swiper library -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <style>
+      /* CSS for the swiping container */
+      .swiper-container {
+        width: 100%;
+        height: 500px;
+      }
+      /* CSS for the swiping slides */
+      .swiper-slide {
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      /* CSS for the reservation button */
+      .reservation-button {
+        margin-top: 20px;
+        padding: 10px 20px;
+        background-color: #3c3c3c;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Houses for Rent</h1>
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide" style="background-image:url(new.jpg)">
+          <h2>House 1</h2>
+          <ul>
+            <li>Location: 123 Main St.</li>
+            <li>Bedrooms: 3</li>
+            <li>Bathrooms: 2</li>
+            <li>Size: 1,500 sq ft</li>
+            <li>Rent: $1,500/month</li>
+            <li>Lease Term: 1 year</li>
+          </ul>
+          <button class="reservation-button">Make a Reservation</button>
+        </div>
+        <div class="swiper-slide" style="background-image:url(image2.jpg)">
+          <h2>House 2</h2>
+          <ul>
+            <li>Location: 456 Main St.</li>
+            <li>Bedrooms: 2</li>
+            <li>Bathrooms: 1</li>
+            <li>Size: 1,000 sq ft</li>
+            <li>Rent: $1,000/month</li>
+            <li>Lease Term: 1 year</li>
+          </ul>
+          <button class="reservation-button">Make a Reservation</button>
+        </div>
+        <div class="swiper-slide" style="background-image:url(house3.jpeg)">
+          <h2>House 3</h2>
+          <ul>
+            <li>Location: 789 Main St.</li>
+            <li>Bedrooms: 4</li>
+            <li>Bathrooms: 3</li>
+            <li>Size: 2,000 sq ft</li>
+            <li>Rent: $2,000/month</li>
+            <li>Lease Term: 1 year</li>
+          </ul>
+          <button class="reservation-button">Make a Reservation</button>
+        </div>
+      </div>
+      <!-- Add pagination -->
+      <div class="swiper-pagination"></div>
+      <!-- Add navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+   
+
+
+
+

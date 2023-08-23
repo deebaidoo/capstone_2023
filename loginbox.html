@@ -1,0 +1,48 @@
+<html>
+<head>
+<title>Create Account</title>
+<link rel="stylesheet" href="loginstyle.css">
+
+<body>
+    <h1 style=text-align:center>Welcome to Easy Housing Solutions!</h1>
+    <h2 style=text-align:center>Click the link below to reserve.</h2>
+    
+    <h3 class="loginbox">
+    <form>
+        <img src="login.jpg" class="logo">
+        <h4>Create Account</h4>
+        <p>Username</p>
+        <input type="text" placeholder="Enter name" id="username" required/>
+        <p>Email</p>
+        <input type="email" placeholder="Enter email" id="email" required/>
+        <p>Password</p>
+        <input type="password" placeholder="Enter password" id="password" required/>
+        <p>Confirm password</p>
+        <input type="confirm" placeholder="Confirm password" id="password" required/>
+        <input type="submit" text-align="left" name="" value="Register">
+            
+        
+        
+
+    </form>
+    </h3>
+    <script>
+        function auth(){
+            var username = document.getElementById("username").value;
+            var email = document.getElementById("email").value;
+            var password = document.getElementById("password").value;
+            if (name =="doreen" && email== "admin@gmail.com" && password== "admin123"){
+                window.location.assign("index.html");
+                alert("Succesfully registered");
+            }
+            else;
+            alert("invalid information");
+            return;
+        }
+    </script>
+
+   
+</body>
+
+</head>    
+</html>
